@@ -2,7 +2,9 @@ package org.example.dao;
 
 import org.example.model.User;
 import org.example.util.DB;
+import org.springframework.stereotype.Component;
 
+@Component
 public class UserDao {
     private final DB db;
 
