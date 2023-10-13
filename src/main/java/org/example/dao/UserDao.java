@@ -2,6 +2,7 @@ package org.example.dao;
 
 import org.example.model.User;
 import org.example.util.DB;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
 @Component

@@ -24,9 +24,4 @@ public class DB {
     public  Map<Integer, User> getAll() {
         return userMap;
     }
-    public boolean deleteUser(Integer id){
-        userMap.remove(id);
-        return userMap.get(id) == null;
-
-    }
 }
